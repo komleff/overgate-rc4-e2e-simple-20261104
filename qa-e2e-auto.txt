@@ -1,0 +1,9 @@
+QA E2E auto install (Windows) — continuation on source 2343df83a3a26ae83bc66d4009dd67a913eeea4e
+Target: komleff/overgate-rc4-e2e-simple-20261104, branch qa/install-e2e-auto, PR #1
+Mode: auto; beads: true; manifest 4.0.0-rc.4
+Project verify: bash .agents/project/verify.sh -> exit 0
+bd --sandbox ready --json -> [] exit 0
+origin/beads-backup present
+main protection: enforce_admins=true, PR required, no force push, no deletions
+Memory Bank files: 6
+Agent: Claude Code 2.1.317 (claude-fable-5-1), bd 1.2.2, native Git Bash
