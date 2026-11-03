@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "overgate_e2e_auto",
+  "project_id": "0bb6d84f-8e5e-40a7-8b44-5c43ff6e95ab"
+}
